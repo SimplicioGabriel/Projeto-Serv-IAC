@@ -21,5 +21,8 @@ unrar linux-site-main.rar
 #movendo para o arquivo index.html do apache2
 cd linux-site-main
 cp ./* /var/www/html -r
- 
+
+echo "excluindo arquivo antigo"
+cd /var/www/htm 
 rm -rf index.html
+
